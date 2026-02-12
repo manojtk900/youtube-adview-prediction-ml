@@ -1,10 +1,10 @@
 # YouTube AdView Prediction using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 This project predicts YouTube ad views using machine learning techniques.  
 It includes data preprocessing, feature engineering, outlier handling, and boosting-based regression models.
 
-## 🚀 Features
+## Features
 - Data cleaning and preprocessing
 - Duration and date feature extraction
 - Engagement ratio engineering
@@ -13,18 +13,32 @@ It includes data preprocessing, feature engineering, outlier handling, and boost
 - HistGradientBoostingRegressor model
 - Test dataset prediction and submission file generation
 
-## 🛠 Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
 
-## 📊 Model Performance
+##  Model Performance
 - R² Score: (Add your final score here)
 - RMSE: (Add your final score here)
 
-## ▶ How to Run
+##  How to Run
 
 ```bash
+
+
+
+## Example Setup
+
+youtube-adview-prediction-ml/
+│
+├── main.py
+├── train_list.csv   (optional)
+├── test_list.csv    (optional)
+├── submission.csv
+├── requirements.txt
+└── README.md
+
 pip install -r requirements.txt
 python main.py
